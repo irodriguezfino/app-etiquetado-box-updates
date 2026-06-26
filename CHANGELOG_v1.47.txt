@@ -1,0 +1,6 @@
+- Nuevo actualizador externo con ventana propia, progreso, logs, reintentos y descarga reanudable.
+- La aplicacion lanza el actualizador separado y se cierra antes de instalar para evitar archivos bloqueados.
+- La instalacion crea copia de seguridad, conserva datos locales y permite rollback si falla.
+- El canal soporta paquetes overlay ligeros para evitar timeouts y paquetes completos para limpiezas futuras.
+- Se anade boton Actualizar para buscar actualizaciones manualmente desde la pantalla principal.
+- El build compila Actualizador_Etiquetado_Box.exe y empaqueta config editable en la raiz instalada.

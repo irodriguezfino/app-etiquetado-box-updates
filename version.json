@@ -1,16 +1,23 @@
 {
   "schema": "app-etiquetado-box-update-v1",
-  "version": "1.46",
-  "published_at": "2026-06-26T08:07:24+02:00",
+  "version": "1.47",
+  "published_at": "2026-06-26T08:40:49+02:00",
   "auto_update": {
     "type": "zip",
-    "file": "App_Etiquetado_Box_v1.46_update.zip",
-    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.46_update.zip",
-    "sha256": "89EF23410EA887A0891A755422D99A3FA3A6DD1A5CCD0AB8252F3A6F68A79CE1"
+    "file": "App_Etiquetado_Box_v1.47_update.zip",
+    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.47_update.zip",
+    "sha256": "C632F3BC552B17809A79CB65888D1EFBDDB44FDAAA74C9B078C6F3838F3306EE"
   },
-  "notes": "- Incorporado el config_salazon.csv actualizado con cabecera y columna Unidades/Box.\n- El parser reconoce CODIGO FAC, Nombre del producto, Dias SAL y Unidades/Box.\n- Las unidades/box ofrecidas salen de la columna Unidades/Box del CSV; ya no se inventa 40.\n- Al cambiar unidades/box, se sigue guardando esa preferencia en la fila del rango seleccionado; los dias SAL no se modifican.\n- Se mantiene el canal de actualizaciones automaticas mediante GitHub y verificacion SHA256.",
+  "notes": "- Nuevo actualizador externo con ventana propia, progreso, logs, reintentos y descarga reanudable.\n- La aplicacion lanza el actualizador separado y se cierra antes de instalar para evitar archivos bloqueados.\n- La instalacion crea copia de seguridad, conserva datos locales y permite rollback si falla.\n- El canal soporta paquetes overlay ligeros para evitar timeouts y paquetes completos para limpiezas futuras.\n- Se anade boton Actualizar para buscar actualizaciones manualmente desde la pantalla principal.\n- El build compila Actualizador_Etiquetado_Box.exe y empaqueta config editable en la raiz instalada.",
   "package_type": "zip",
-  "package": "App_Etiquetado_Box_v1.46_update.zip",
-  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.46_update.zip",
-  "sha256": "89EF23410EA887A0891A755422D99A3FA3A6DD1A5CCD0AB8252F3A6F68A79CE1"
+  "package": "App_Etiquetado_Box_v1.47_update.zip",
+  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.47_update.zip",
+  "sha256": "C632F3BC552B17809A79CB65888D1EFBDDB44FDAAA74C9B078C6F3838F3306EE",
+  "update_mode": "overlay",
+  "preserve": [
+    "config_usuario.json",
+    "exportaciones",
+    "logs",
+    "_backups"
+  ]
 }
