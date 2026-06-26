@@ -1,0 +1,7 @@
+- Añadido canal de actualizaciones automaticas mediante GitHub, manifiesto remoto y verificacion SHA256.
+- Añadido config/config_salazon.csv para definir por articulo los rangos de peso y dias en sal por defecto.
+- El rango de peso ya no se escribe a mano: al cargar la partida se ofrece un desplegable con los rangos configurados para el articulo detectado.
+- Al seleccionar un rango se precargan los dias en sal indicados en el CSV, manteniendolos editables para ajustes puntuales.
+- La etiqueta ya no muestra un bloque independiente de rango de peso: el rango queda integrado en el nombre del articulo.
+- La plantilla por defecto aprovecha el espacio liberado para ampliar la fecha de salida y el articulo.
+- El editor queda mas limpio: se retiran opciones de rango de peso de los campos recomendados y la ayuda explica el nuevo criterio.
