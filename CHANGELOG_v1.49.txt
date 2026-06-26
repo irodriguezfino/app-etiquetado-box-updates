@@ -1,0 +1,1 @@
+- Prueba de actualizacion automatica v1.49. - Cambio minimo de version para comprobar deteccion, descarga e instalacion diferencial desde v1.48.
