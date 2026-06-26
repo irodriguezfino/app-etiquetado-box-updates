@@ -1,0 +1,1 @@
+- Corrige la vista previa de etiquetas al inicializar la plantilla en la ventana principal. - Recarga la plantilla al guardar desde el editor. - Evita cache de manifiesto en futuras comprobaciones de actualizacion.

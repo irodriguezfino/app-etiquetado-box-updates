@@ -1,30 +1,30 @@
 {
   "schema": "app-etiquetado-box-update-v2",
-  "version": "1.49",
-  "base_version": "1.48",
-  "published_at": "2026-06-26T09:51:54+02:00",
-  "notes": "- Prueba de actualizacion automatica v1.49. - Cambio minimo de version para comprobar deteccion, descarga e instalacion diferencial desde v1.48.",
+  "version": "1.50",
+  "base_version": "1.49",
+  "published_at": "2026-06-26T12:01:13+02:00",
+  "notes": "- Corrige la vista previa de etiquetas al inicializar la plantilla en la ventana principal. - Recarga la plantilla al guardar desde el editor. - Evita cache de manifiesto en futuras comprobaciones de actualizacion.",
   "package_type": "zip",
-  "package": "App_Etiquetado_Box_v1.49_delta_desde_v1.48.zip",
-  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.49_delta_desde_v1.48.zip",
-  "sha256": "95B7893A3358F36EAD98419E9BFAA9510FDD658AC903C91BC33D478DA9BA2153",
+  "package": "App_Etiquetado_Box_v1.50_delta_desde_v1.49.zip",
+  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.50_delta_desde_v1.49.zip",
+  "sha256": "8FCC0A63054E99F72BDD22D51FCF54977BE0EF70AE431B4E5BE3D06AC875EF36",
   "update_mode": "overlay",
   "cleanup_paths": [],
   "files": [
     {
       "path": "Actualizador_Etiquetado_Box.exe",
-      "size": 11663086,
-      "sha256": "06526C9350647E8DF217DE08727E19D2FA4228284AC3C6DE36D169C4490ADE86"
+      "size": 11662939,
+      "sha256": "A22011FBFF56BD830708BAFC37B18E7AD3E132B958291C11322E7869082BF031"
     },
     {
       "path": "Etiquetado_Box_Salazon.exe",
-      "size": 5902268,
-      "sha256": "DAE4644514968430C3690D8066C167A52DFC38E6CE8F4FF8D9E7D0E2C86B9D7C"
+      "size": 5902485,
+      "sha256": "A490BFB536E410FE2055F17EB2749B0D8C5D49926798CC478E73270ECB900053"
     },
     {
       "path": "_internal/base_library.zip",
       "size": 1388172,
-      "sha256": "EB0FE9E4ED590E7A863E1122BD3086CF23B2D7ADFCE077E5C190A7576A66AA6C"
+      "sha256": "1E2D4C5C009AAAD34EC738280FA644BDDE99D54B67CFB12216C3B3AFA578FF63"
     }
   ],
   "preserve": [
@@ -35,50 +35,50 @@
   ],
   "auto_update": {
     "type": "zip",
-    "file": "App_Etiquetado_Box_v1.49_delta_desde_v1.48.zip",
-    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.49_delta_desde_v1.48.zip",
-    "sha256": "95B7893A3358F36EAD98419E9BFAA9510FDD658AC903C91BC33D478DA9BA2153"
+    "file": "App_Etiquetado_Box_v1.50_delta_desde_v1.49.zip",
+    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.50_delta_desde_v1.49.zip",
+    "sha256": "8FCC0A63054E99F72BDD22D51FCF54977BE0EF70AE431B4E5BE3D06AC875EF36"
   },
   "packages": [
     {
       "kind": "delta",
       "type": "zip",
-      "file": "App_Etiquetado_Box_v1.49_delta_desde_v1.48.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.49_delta_desde_v1.48.zip",
-      "sha256": "95B7893A3358F36EAD98419E9BFAA9510FDD658AC903C91BC33D478DA9BA2153",
-      "size": 17600195,
+      "file": "App_Etiquetado_Box_v1.50_delta_desde_v1.49.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.50_delta_desde_v1.49.zip",
+      "sha256": "8FCC0A63054E99F72BDD22D51FCF54977BE0EF70AE431B4E5BE3D06AC875EF36",
+      "size": 17599036,
       "update_mode": "overlay",
-      "version": "1.49",
+      "version": "1.50",
       "files": [
         {
           "path": "Actualizador_Etiquetado_Box.exe",
-          "size": 11663086,
-          "sha256": "06526C9350647E8DF217DE08727E19D2FA4228284AC3C6DE36D169C4490ADE86"
+          "size": 11662939,
+          "sha256": "A22011FBFF56BD830708BAFC37B18E7AD3E132B958291C11322E7869082BF031"
         },
         {
           "path": "Etiquetado_Box_Salazon.exe",
-          "size": 5902268,
-          "sha256": "DAE4644514968430C3690D8066C167A52DFC38E6CE8F4FF8D9E7D0E2C86B9D7C"
+          "size": 5902485,
+          "sha256": "A490BFB536E410FE2055F17EB2749B0D8C5D49926798CC478E73270ECB900053"
         },
         {
           "path": "_internal/base_library.zip",
           "size": 1388172,
-          "sha256": "EB0FE9E4ED590E7A863E1122BD3086CF23B2D7ADFCE077E5C190A7576A66AA6C"
+          "sha256": "1E2D4C5C009AAAD34EC738280FA644BDDE99D54B67CFB12216C3B3AFA578FF63"
         }
       ],
       "cleanup_paths": [],
-      "from_version": "1.48",
-      "min_version": "1.48"
+      "from_version": "1.49",
+      "min_version": "1.49"
     },
     {
       "kind": "full",
       "type": "zip",
-      "file": "App_Etiquetado_Box_v1.49_full_update.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.49_full_update.zip",
-      "sha256": "50BD8C6EE0595FF5D814070FE712AB11EA061D1172F1DC2D452E9F5A63D8568B",
-      "size": 44148152,
+      "file": "App_Etiquetado_Box_v1.50_full_update.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.50_full_update.zip",
+      "sha256": "BDA0AA8C74508D92E567AA482128E219E322D5C9927D222B45391E9B03CC8DD5",
+      "size": 44146993,
       "update_mode": "overlay",
-      "version": "1.49",
+      "version": "1.50",
       "files": [],
       "cleanup_paths": []
     }
