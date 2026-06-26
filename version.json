@@ -6,7 +6,7 @@
   "notes": "- Rellena automaticamente etiquetas/box al limpiar o aplicar rango. - Simplifica el desplegable de rangos mostrando rango y piezas. - Mueve dias, unidades y articulo al detalle inferior del rango. - Mejora el estilo visual del selector de rango.",
   "package_type": "zip",
   "package": "App_Etiquetado_Box_v1.52_delta_desde_v1.51.zip",
-  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.52_delta_desde_v1.51.zip",
+  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.52_delta_desde_v1.51.zip",
   "sha256": "EE444575A67AAEA8B5F3ABFCE8D3FF9D305F8AC1E0D4361629EB88FEFCCDBF31",
   "update_mode": "overlay",
   "cleanup_paths": [],
@@ -36,7 +36,7 @@
   "auto_update": {
     "type": "zip",
     "file": "App_Etiquetado_Box_v1.52_delta_desde_v1.51.zip",
-    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.52_delta_desde_v1.51.zip",
+    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.52_delta_desde_v1.51.zip",
     "sha256": "EE444575A67AAEA8B5F3ABFCE8D3FF9D305F8AC1E0D4361629EB88FEFCCDBF31"
   },
   "packages": [
@@ -44,7 +44,7 @@
       "kind": "delta",
       "type": "zip",
       "file": "App_Etiquetado_Box_v1.52_delta_desde_v1.51.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.52_delta_desde_v1.51.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.52_delta_desde_v1.51.zip",
       "sha256": "EE444575A67AAEA8B5F3ABFCE8D3FF9D305F8AC1E0D4361629EB88FEFCCDBF31",
       "size": 17599453,
       "update_mode": "overlay",
@@ -74,7 +74,7 @@
       "kind": "full",
       "type": "zip",
       "file": "App_Etiquetado_Box_v1.52_full_update.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.52_full_update.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.52_full_update.zip",
       "sha256": "D3A50692250EE75FD7E771ECBCEA803BE26BA4ABC99C9A4480017E5B7DB920F3",
       "size": 44147415,
       "update_mode": "overlay",
