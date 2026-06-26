@@ -1,0 +1,1 @@
+- Instalador de escritorio registrado en Windows con desinstalador visible. - Paquete USB orientado a instalar, no a ejecutar en modo portable. - Update diferencial compatible desde v1.46: solo descarga archivos cambiados y conserva datos locales. - Actualizador compatible con paquetes delta y full de respaldo.
