@@ -1,0 +1,5 @@
+- Incorporado el config_salazon.csv actualizado con cabecera y columna Unidades/Box.
+- El parser reconoce CODIGO FAC, Nombre del producto, Dias SAL y Unidades/Box.
+- Las unidades/box ofrecidas salen de la columna Unidades/Box del CSV; ya no se inventa 40.
+- Al cambiar unidades/box, se sigue guardando esa preferencia en la fila del rango seleccionado; los dias SAL no se modifican.
+- Se mantiene el canal de actualizaciones automaticas mediante GitHub y verificacion SHA256.

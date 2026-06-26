@@ -1,16 +1,16 @@
 {
   "schema": "app-etiquetado-box-update-v1",
-  "version": "1.40",
-  "published_at": "2026-06-26T07:35:44+02:00",
+  "version": "1.46",
+  "published_at": "2026-06-26T08:07:24+02:00",
   "auto_update": {
     "type": "zip",
-    "file": "App_Etiquetado_Box_v1.40_update.zip",
-    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.40_update.zip",
-    "sha256": "BC1F8A08F96D19FC0F8B9DFAB91364311B6870E5000A7D4C60EE6A81BCA508CC"
+    "file": "App_Etiquetado_Box_v1.46_update.zip",
+    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.46_update.zip",
+    "sha256": "89EF23410EA887A0891A755422D99A3FA3A6DD1A5CCD0AB8252F3A6F68A79CE1"
   },
-  "notes": "- Añadido canal de actualizaciones automaticas mediante GitHub, manifiesto remoto y verificacion SHA256.\n- Añadido config/config_salazon.csv para definir por articulo los rangos de peso y dias en sal por defecto.\n- El rango de peso ya no se escribe a mano: al cargar la partida se ofrece un desplegable con los rangos configurados para el articulo detectado.\n- Al seleccionar un rango se precargan los dias en sal indicados en el CSV, manteniendolos editables para ajustes puntuales.\n- La etiqueta ya no muestra un bloque independiente de rango de peso: el rango queda integrado en el nombre del articulo.\n- La plantilla por defecto aprovecha el espacio liberado para ampliar la fecha de salida y el articulo.\n- El editor queda mas limpio: se retiran opciones de rango de peso de los campos recomendados y la ayuda explica el nuevo criterio.",
+  "notes": "- Incorporado el config_salazon.csv actualizado con cabecera y columna Unidades/Box.\n- El parser reconoce CODIGO FAC, Nombre del producto, Dias SAL y Unidades/Box.\n- Las unidades/box ofrecidas salen de la columna Unidades/Box del CSV; ya no se inventa 40.\n- Al cambiar unidades/box, se sigue guardando esa preferencia en la fila del rango seleccionado; los dias SAL no se modifican.\n- Se mantiene el canal de actualizaciones automaticas mediante GitHub y verificacion SHA256.",
   "package_type": "zip",
-  "package": "App_Etiquetado_Box_v1.40_update.zip",
-  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.40_update.zip",
-  "sha256": "BC1F8A08F96D19FC0F8B9DFAB91364311B6870E5000A7D4C60EE6A81BCA508CC"
+  "package": "App_Etiquetado_Box_v1.46_update.zip",
+  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.46_update.zip",
+  "sha256": "89EF23410EA887A0891A755422D99A3FA3A6DD1A5CCD0AB8252F3A6F68A79CE1"
 }
