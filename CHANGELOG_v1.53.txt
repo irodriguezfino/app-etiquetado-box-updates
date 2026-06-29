@@ -1,0 +1,1 @@
+- Corrige el dia de la semana impreso para que siempre se derive de la fecha de salida. - Repara plantillas con dia o fecha de salida convertidos accidentalmente en texto fijo. - Refuerza la validacion del editor de etiquetas para evitar campos de salida no dinamicos.
