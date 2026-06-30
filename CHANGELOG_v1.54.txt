@@ -1,0 +1,1 @@
+- Corrige la fecha de recepcion impresa para que siempre salga del fichero de partida. - Repara plantillas con fecha de recepcion o entrada convertidas accidentalmente en texto fijo. - Refuerza la validacion del editor para exigir campos de fecha dinamicos.
