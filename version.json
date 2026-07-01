@@ -1,15 +1,23 @@
 {
   "schema": "app-etiquetado-box-update-v2",
-  "version": "1.56",
-  "base_version": "1.54",
-  "published_at": "2026-07-01T11:15:57+02:00",
-  "notes": "- Recupera la interfaz y el empaquetado funcional de la version 1.54. - Corrige el selector de rangos restaurando la carpeta config editable en la raiz. - Corrige el conteo de rangos consecutivos: el limite superior se cuenta hasta 0,01 menos.",
+  "version": "1.57",
+  "base_version": "1.56",
+  "published_at": "2026-07-01T11:47:58+02:00",
+  "notes": "- Corrige el conteo mostrado en el selector de rangos y los resumenes de la interfaz. - Aplica en toda la aplicacion la regla de limite superior hasta 0,01 kg menos para rangos consecutivos. - Evita duplicar piezas con peso exacto en el limite entre dos rangos.",
   "package_type": "zip",
-  "package": "App_Etiquetado_Box_v1.56_full_update.zip",
-  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.56_full_update.zip",
-  "sha256": "C73D8055F1D0EFF388BA66D92B38CA34D6822F84735F22468C7893CF28BF0812",
+  "package": "App_Etiquetado_Box_v1.57_full_update.zip",
+  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.57_full_update.zip",
+  "sha256": "8C9382D6542E2850A74A3EFEB1B7928CB42B3E98AEF5D1A8E25391ACA985AD21",
   "update_mode": "overlay",
-  "cleanup_paths": [],
+  "cleanup_paths": [
+    "_internal/assets/ICONO_SUITE_RRHH_128.png",
+    "_internal/assets/ICONO_SUITE_RRHH_16.png",
+    "_internal/assets/ICONO_SUITE_RRHH_24.png",
+    "_internal/assets/ICONO_SUITE_RRHH_256.png",
+    "_internal/assets/ICONO_SUITE_RRHH_32.png",
+    "_internal/assets/ICONO_SUITE_RRHH_48.png",
+    "_internal/assets/ICONO_SUITE_RRHH_64.png"
+  ],
   "files": [],
   "preserve": [
     "config_usuario.json",
@@ -19,52 +27,98 @@
   ],
   "auto_update": {
     "type": "zip",
-    "file": "App_Etiquetado_Box_v1.56_full_update.zip",
-    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.56_full_update.zip",
-    "sha256": "C73D8055F1D0EFF388BA66D92B38CA34D6822F84735F22468C7893CF28BF0812"
+    "file": "App_Etiquetado_Box_v1.57_full_update.zip",
+    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.57_full_update.zip",
+    "sha256": "8C9382D6542E2850A74A3EFEB1B7928CB42B3E98AEF5D1A8E25391ACA985AD21"
   },
   "packages": [
     {
       "kind": "delta",
       "type": "zip",
-      "file": "App_Etiquetado_Box_v1.56_delta_desde_v1.54.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.56_delta_desde_v1.54.zip",
-      "sha256": "B0DE85C000C8000DEE53C7F9C5F53E9B22D60673B046C409147DEA695974D335",
-      "size": 17601453,
+      "file": "App_Etiquetado_Box_v1.57_delta_desde_v1.56.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.57_delta_desde_v1.56.zip",
+      "sha256": "A2EDE4D6F9B486E744DE7D26FE2DC11AA1F738A80D6103EE0D9FC308951A73A7",
+      "size": 17845943,
       "update_mode": "overlay",
-      "version": "1.56",
+      "version": "1.57",
       "files": [
         {
           "path": "Actualizador_Etiquetado_Box.exe",
-          "size": 11662423,
-          "sha256": "D695306DF4A68FC29C49225432A1AF23D69DE482FB93601AA4C3B2A41E027CCC"
+          "size": 11700360,
+          "sha256": "5A8B9A3D06CFE122D9B32F2B1BD24A5926607EA30758E9A274AB6A6E322C608A"
         },
         {
           "path": "Etiquetado_Box_Salazon.exe",
-          "size": 5904181,
-          "sha256": "EF1ECC2F24EEC31B33EB17FD5BCB1DD96A9CCE4341546CD04E24707B3A7E85B5"
+          "size": 5940109,
+          "sha256": "168573B18FC21E4D833D9F6137405DC34F524A107A2379E3632640D031CF4BF7"
+        },
+        {
+          "path": "_internal/assets/ICONO_SUITE_RRHH.ico",
+          "size": 100531,
+          "sha256": "B778734B631D473083465EB3162B24010EC0490B2C7810A5D6DA6B41B371FD52"
+        },
+        {
+          "path": "_internal/assets/ICONO_SUITE_RRHH.png",
+          "size": 65463,
+          "sha256": "5A8B4FD8F2A84F2A17101E85CC5CE0AD5DC7B72BA4BBE48072E87253F09A8938"
         },
         {
           "path": "_internal/base_library.zip",
           "size": 1388172,
-          "sha256": "760A39459DA4647829C799CF2B9A7E4FCF457F887496E3C130D8F7DFAA0607F7"
+          "sha256": "9F9F88285AC999E3FB43309CBACA805750762BEB01EB640A6E4078BE899D3381"
+        },
+        {
+          "path": "_internal/config/config_salazon.csv",
+          "size": 3721,
+          "sha256": "32192D8989EEE0F1C2976F5F7E30B74F2F6BCBCEE20F508E3172FD024D2D6839"
+        },
+        {
+          "path": "_internal/config/plantilla_etiqueta.json",
+          "size": 5783,
+          "sha256": "5DB881348905AE42F804B6F2DB628B73F7824282594A4A4A3E92CE25A5BE5541"
+        },
+        {
+          "path": "config/config_salazon.csv",
+          "size": 3721,
+          "sha256": "32192D8989EEE0F1C2976F5F7E30B74F2F6BCBCEE20F508E3172FD024D2D6839"
+        },
+        {
+          "path": "config/plantilla_etiqueta.json",
+          "size": 5783,
+          "sha256": "5DB881348905AE42F804B6F2DB628B73F7824282594A4A4A3E92CE25A5BE5541"
         }
       ],
-      "cleanup_paths": [],
-      "from_version": "1.54",
-      "min_version": "1.54"
+      "cleanup_paths": [
+        "_internal/assets/ICONO_SUITE_RRHH_128.png",
+        "_internal/assets/ICONO_SUITE_RRHH_16.png",
+        "_internal/assets/ICONO_SUITE_RRHH_24.png",
+        "_internal/assets/ICONO_SUITE_RRHH_256.png",
+        "_internal/assets/ICONO_SUITE_RRHH_32.png",
+        "_internal/assets/ICONO_SUITE_RRHH_48.png",
+        "_internal/assets/ICONO_SUITE_RRHH_64.png"
+      ],
+      "from_version": "1.56",
+      "min_version": "1.56"
     },
     {
       "kind": "full",
       "type": "zip",
-      "file": "App_Etiquetado_Box_v1.56_full_update.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.56_full_update.zip",
-      "sha256": "C73D8055F1D0EFF388BA66D92B38CA34D6822F84735F22468C7893CF28BF0812",
-      "size": 44149415,
+      "file": "App_Etiquetado_Box_v1.57_full_update.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.57_full_update.zip",
+      "sha256": "8C9382D6542E2850A74A3EFEB1B7928CB42B3E98AEF5D1A8E25391ACA985AD21",
+      "size": 43512148,
       "update_mode": "overlay",
-      "version": "1.56",
+      "version": "1.57",
       "files": [],
-      "cleanup_paths": []
+      "cleanup_paths": [
+        "_internal/assets/ICONO_SUITE_RRHH_128.png",
+        "_internal/assets/ICONO_SUITE_RRHH_16.png",
+        "_internal/assets/ICONO_SUITE_RRHH_24.png",
+        "_internal/assets/ICONO_SUITE_RRHH_256.png",
+        "_internal/assets/ICONO_SUITE_RRHH_32.png",
+        "_internal/assets/ICONO_SUITE_RRHH_48.png",
+        "_internal/assets/ICONO_SUITE_RRHH_64.png"
+      ]
     }
   ]
 }

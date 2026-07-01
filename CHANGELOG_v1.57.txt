@@ -1,0 +1,1 @@
+- Corrige el conteo mostrado en el selector de rangos y los resumenes de la interfaz. - Aplica en toda la aplicacion la regla de limite superior hasta 0,01 kg menos para rangos consecutivos. - Evita duplicar piezas con peso exacto en el limite entre dos rangos.
