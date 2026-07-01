@@ -1,23 +1,70 @@
 {
-  "schema": "app-etiquetado-box-update-v1",
-  "version": "1.55",
-  "published_at": "2026-07-01T08:39:08+02:00",
-  "auto_update": {
-    "type": "zip",
-    "file": "App_Etiquetado_Box_v1.55_update.zip",
-    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.55_update.zip",
-    "sha256": "1CEB0E68505961A925EEE0B74970EECE57463DD51D3AC8AEEC26FC0AF8B9F1B4"
-  },
-  "notes": "- Corrige el conteo de piezas en rangos consecutivos: el limite superior se cuenta hasta 0,01 menos.\n- Evita que una pieza justo en la frontera, por ejemplo 13, se cuente a la vez en 12-13 y en 13-14.",
+  "schema": "app-etiquetado-box-update-v2",
+  "version": "1.56",
+  "base_version": "1.54",
+  "published_at": "2026-07-01T11:15:57+02:00",
+  "notes": "- Recupera la interfaz y el empaquetado funcional de la version 1.54. - Corrige el selector de rangos restaurando la carpeta config editable en la raiz. - Corrige el conteo de rangos consecutivos: el limite superior se cuenta hasta 0,01 menos.",
   "package_type": "zip",
-  "package": "App_Etiquetado_Box_v1.55_update.zip",
-  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.55_update.zip",
-  "sha256": "1CEB0E68505961A925EEE0B74970EECE57463DD51D3AC8AEEC26FC0AF8B9F1B4",
+  "package": "App_Etiquetado_Box_v1.56_full_update.zip",
+  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.56_full_update.zip",
+  "sha256": "C73D8055F1D0EFF388BA66D92B38CA34D6822F84735F22468C7893CF28BF0812",
   "update_mode": "overlay",
+  "cleanup_paths": [],
+  "files": [],
   "preserve": [
     "config_usuario.json",
     "exportaciones",
     "logs",
     "_backups"
+  ],
+  "auto_update": {
+    "type": "zip",
+    "file": "App_Etiquetado_Box_v1.56_full_update.zip",
+    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.56_full_update.zip",
+    "sha256": "C73D8055F1D0EFF388BA66D92B38CA34D6822F84735F22468C7893CF28BF0812"
+  },
+  "packages": [
+    {
+      "kind": "delta",
+      "type": "zip",
+      "file": "App_Etiquetado_Box_v1.56_delta_desde_v1.54.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.56_delta_desde_v1.54.zip",
+      "sha256": "B0DE85C000C8000DEE53C7F9C5F53E9B22D60673B046C409147DEA695974D335",
+      "size": 17601453,
+      "update_mode": "overlay",
+      "version": "1.56",
+      "files": [
+        {
+          "path": "Actualizador_Etiquetado_Box.exe",
+          "size": 11662423,
+          "sha256": "D695306DF4A68FC29C49225432A1AF23D69DE482FB93601AA4C3B2A41E027CCC"
+        },
+        {
+          "path": "Etiquetado_Box_Salazon.exe",
+          "size": 5904181,
+          "sha256": "EF1ECC2F24EEC31B33EB17FD5BCB1DD96A9CCE4341546CD04E24707B3A7E85B5"
+        },
+        {
+          "path": "_internal/base_library.zip",
+          "size": 1388172,
+          "sha256": "760A39459DA4647829C799CF2B9A7E4FCF457F887496E3C130D8F7DFAA0607F7"
+        }
+      ],
+      "cleanup_paths": [],
+      "from_version": "1.54",
+      "min_version": "1.54"
+    },
+    {
+      "kind": "full",
+      "type": "zip",
+      "file": "App_Etiquetado_Box_v1.56_full_update.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.56_full_update.zip",
+      "sha256": "C73D8055F1D0EFF388BA66D92B38CA34D6822F84735F22468C7893CF28BF0812",
+      "size": 44149415,
+      "update_mode": "overlay",
+      "version": "1.56",
+      "files": [],
+      "cleanup_paths": []
+    }
   ]
 }

@@ -1,0 +1,1 @@
+- Recupera la interfaz y el empaquetado funcional de la version 1.54. - Corrige el selector de rangos restaurando la carpeta config editable en la raiz. - Corrige el conteo de rangos consecutivos: el limite superior se cuenta hasta 0,01 menos.
