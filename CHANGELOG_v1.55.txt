@@ -1,0 +1,2 @@
+- Corrige el conteo de piezas en rangos consecutivos: el limite superior se cuenta hasta 0,01 menos.
+- Evita que una pieza justo en la frontera, por ejemplo 13, se cuente a la vez en 12-13 y en 13-14.

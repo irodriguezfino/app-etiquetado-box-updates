@@ -1,86 +1,23 @@
 {
-  "schema": "app-etiquetado-box-update-v2",
-  "version": "1.54",
-  "base_version": "1.53",
-  "published_at": "2026-06-30T09:43:22+02:00",
-  "notes": "- Corrige la fecha de recepcion impresa para que siempre salga del fichero de partida. - Repara plantillas con fecha de recepcion o entrada convertidas accidentalmente en texto fijo. - Refuerza la validacion del editor para exigir campos de fecha dinamicos.",
+  "schema": "app-etiquetado-box-update-v1",
+  "version": "1.55",
+  "published_at": "2026-07-01T08:39:08+02:00",
+  "auto_update": {
+    "type": "zip",
+    "file": "App_Etiquetado_Box_v1.55_update.zip",
+    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.55_update.zip",
+    "sha256": "1CEB0E68505961A925EEE0B74970EECE57463DD51D3AC8AEEC26FC0AF8B9F1B4"
+  },
+  "notes": "- Corrige el conteo de piezas en rangos consecutivos: el limite superior se cuenta hasta 0,01 menos.\n- Evita que una pieza justo en la frontera, por ejemplo 13, se cuente a la vez en 12-13 y en 13-14.",
   "package_type": "zip",
-  "package": "App_Etiquetado_Box_v1.54_delta_desde_v1.53.zip",
-  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.54_delta_desde_v1.53.zip",
-  "sha256": "3E3BEA292A98641257E47FCEDBE94E6B484C5AA5646AE490E3CF8D2FDFC411A3",
+  "package": "App_Etiquetado_Box_v1.55_update.zip",
+  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.55_update.zip",
+  "sha256": "1CEB0E68505961A925EEE0B74970EECE57463DD51D3AC8AEEC26FC0AF8B9F1B4",
   "update_mode": "overlay",
-  "cleanup_paths": [],
-  "files": [
-    {
-      "path": "Actualizador_Etiquetado_Box.exe",
-      "size": 11663850,
-      "sha256": "9977030B376B152D439D799CAD413298AFA2818210C16745B5F5CDF90255ABD1"
-    },
-    {
-      "path": "Etiquetado_Box_Salazon.exe",
-      "size": 5903652,
-      "sha256": "3C087BC60B9721166EA7B392428564F59F8738CDED84D8D886F5A1FB42D698BD"
-    },
-    {
-      "path": "_internal/base_library.zip",
-      "size": 1388172,
-      "sha256": "98A8CC9BECEFDDF89ABC03786D43A86E7BFF23F1CCF9304CC5BF4C8D8C001330"
-    }
-  ],
   "preserve": [
     "config_usuario.json",
     "exportaciones",
     "logs",
     "_backups"
-  ],
-  "auto_update": {
-    "type": "zip",
-    "file": "App_Etiquetado_Box_v1.54_delta_desde_v1.53.zip",
-    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.54_delta_desde_v1.53.zip",
-    "sha256": "3E3BEA292A98641257E47FCEDBE94E6B484C5AA5646AE490E3CF8D2FDFC411A3"
-  },
-  "packages": [
-    {
-      "kind": "delta",
-      "type": "zip",
-      "file": "App_Etiquetado_Box_v1.54_delta_desde_v1.53.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.54_delta_desde_v1.53.zip",
-      "sha256": "3E3BEA292A98641257E47FCEDBE94E6B484C5AA5646AE490E3CF8D2FDFC411A3",
-      "size": 17602720,
-      "update_mode": "overlay",
-      "version": "1.54",
-      "files": [
-        {
-          "path": "Actualizador_Etiquetado_Box.exe",
-          "size": 11663850,
-          "sha256": "9977030B376B152D439D799CAD413298AFA2818210C16745B5F5CDF90255ABD1"
-        },
-        {
-          "path": "Etiquetado_Box_Salazon.exe",
-          "size": 5903652,
-          "sha256": "3C087BC60B9721166EA7B392428564F59F8738CDED84D8D886F5A1FB42D698BD"
-        },
-        {
-          "path": "_internal/base_library.zip",
-          "size": 1388172,
-          "sha256": "98A8CC9BECEFDDF89ABC03786D43A86E7BFF23F1CCF9304CC5BF4C8D8C001330"
-        }
-      ],
-      "cleanup_paths": [],
-      "from_version": "1.53",
-      "min_version": "1.53"
-    },
-    {
-      "kind": "full",
-      "type": "zip",
-      "file": "App_Etiquetado_Box_v1.54_full_update.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/refs/heads/main/App_Etiquetado_Box_v1.54_full_update.zip",
-      "sha256": "7BFAE0400A2E79B9A32363DD382E057980872472F4BD25D2BA4C04EC8D020F8A",
-      "size": 44150682,
-      "update_mode": "overlay",
-      "version": "1.54",
-      "files": [],
-      "cleanup_paths": []
-    }
   ]
 }
