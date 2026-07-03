@@ -1,0 +1,1 @@
+- Corrige la asignacion de jamones en limites de rango cuando el rango siguiente empieza antes del maximo configurado. - Usa el inicio real del siguiente rango para calcular el limite superior efectivo. - Alinea el conteo del desplegable, la validacion y la generacion final de etiquetas.
