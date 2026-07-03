@@ -1,0 +1,1 @@
+- Corrige el reparto de piezas con peso exacto en el corte entre rangos. - Asigna el peso exacto del limite al rango inferior y excluye ese minimo del rango siguiente. - Verificado con la partida 270926: 108, 44, 22 y 2 piezas en los rangos esperados.
