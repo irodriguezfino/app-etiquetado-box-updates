@@ -1,13 +1,13 @@
 {
   "schema": "app-etiquetado-box-update-v2",
-  "version": "1.61",
-  "base_version": "1.60",
-  "published_at": "2026-07-09T08:07:09+02:00",
-  "notes": "- Corrige la URL de consulta de actualizaciones para usar la ruta canonica de GitHub. - Evita cache antiguo en raw.githubusercontent.com y mantiene la proteccion de la plantilla de impresion editada.",
+  "version": "1.62",
+  "base_version": "1.61",
+  "published_at": "2026-07-09T08:15:16+02:00",
+  "notes": "- Corrige el arranque del ejecutable incluyendo el modulo Python tkinter en el paquete. - Mantiene la proteccion de la plantilla de impresion editada durante la actualizacion.",
   "package_type": "zip",
-  "package": "App_Etiquetado_Box_v1.61_full_update.zip",
-  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.61_full_update.zip",
-  "sha256": "C0F529090986993546E82F4CA19098B559D8B5E51B1967A99866F64292E07F3E",
+  "package": "App_Etiquetado_Box_v1.62_full_update.zip",
+  "package_url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.62_full_update.zip",
+  "sha256": "03E037DC87025CE2946773ACF7DE9FF18D035E613569CA4AF5A8E8F6D5C3D698",
   "update_mode": "overlay",
   "cleanup_paths": [],
   "files": [],
@@ -22,55 +22,120 @@
   ],
   "auto_update": {
     "type": "zip",
-    "file": "App_Etiquetado_Box_v1.61_full_update.zip",
-    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.61_full_update.zip",
-    "sha256": "C0F529090986993546E82F4CA19098B559D8B5E51B1967A99866F64292E07F3E"
+    "file": "App_Etiquetado_Box_v1.62_full_update.zip",
+    "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.62_full_update.zip",
+    "sha256": "03E037DC87025CE2946773ACF7DE9FF18D035E613569CA4AF5A8E8F6D5C3D698"
   },
   "packages": [
     {
       "kind": "delta",
       "type": "zip",
-      "file": "App_Etiquetado_Box_v1.61_delta_desde_v1.60.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.61_delta_desde_v1.60.zip",
-      "sha256": "C1A47D958ED5F752AF03AEA9A8DAEE4F04303E424A0291972D229A8FAEF8622C",
-      "size": 18236450,
+      "file": "App_Etiquetado_Box_v1.62_delta_desde_v1.61.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.62_delta_desde_v1.61.zip",
+      "sha256": "4B9ECFE0D510750BD79AA5071ABE531E9BD28AC43FEF0417FE88332EFAD13522",
+      "size": 18535773,
       "update_mode": "overlay",
-      "version": "1.61",
+      "version": "1.62",
       "files": [
         {
           "path": "Actualizador_Etiquetado_Box.exe",
-          "size": 12443394,
-          "sha256": "F05E968A6B6A96D3E1FF8723FB4BEA5EB46A4D4BF22DABA3C25D1B90BF2706C0"
+          "size": 12650734,
+          "sha256": "6BF81B12997CAD14DC404B66B3799CD8BFAA1A2D175A0205A7EB3DCBD34F68A7"
         },
         {
           "path": "Etiquetado_Box_Salazon.exe",
           "size": 5779502,
-          "sha256": "E476C07AC45975EA8482ED61C52EFA7C7BD3FA67DB56F4C4F75BBFAC27D67969"
+          "sha256": "BA3975C25E4536333DB3102E8A3541A94BE903415B74A2275FCBEBCF3FB1581F"
         },
         {
           "path": "_internal/base_library.zip",
           "size": 1388517,
-          "sha256": "420BCEBE42FD52A7E1FEDEA903C47F168774C3A719BC5278797C6FCF79061735"
+          "sha256": "78AF9D787665490DAA2987E5F557ABB22564154C4F0D432F1FA26F415CD95FFB"
         },
         {
-          "path": "update_config.json",
-          "size": 137,
-          "sha256": "61669BA4F4613088012054301F1E32C2EEC5806C902B2B6394C881DFF2D35ADD"
+          "path": "_internal/tkinter/__init__.py",
+          "size": 193740,
+          "sha256": "C2DF00C79B9D30E9DA05B744B5703A029D0AC413023D86229F75C929FB301B13"
+        },
+        {
+          "path": "_internal/tkinter/__main__.py",
+          "size": 155,
+          "sha256": "A535E36B6F3EB57EE9B7F9633AB082E41CA0BB8C3DD701521240757468EF5151"
+        },
+        {
+          "path": "_internal/tkinter/colorchooser.py",
+          "size": 2746,
+          "sha256": "C18048B86214C5C7A30115A89D1553F64C21455C2BFB6F08F8C88657777EB5BD"
+        },
+        {
+          "path": "_internal/tkinter/commondialog.py",
+          "size": 1342,
+          "sha256": "051F370511E07AE6D05C894991B4AA44CC671098149953453CC14B219C96E4D4"
+        },
+        {
+          "path": "_internal/tkinter/constants.py",
+          "size": 1603,
+          "sha256": "0FFD883463F20255FBD458D8ABD15A6842190F2F5CC182416CB9A15FFB1E1052"
+        },
+        {
+          "path": "_internal/tkinter/dialog.py",
+          "size": 1584,
+          "sha256": "562643A670AE4AC6319B34F93776D0FC4636765C320B3067D2F5164C5FC4E5B5"
+        },
+        {
+          "path": "_internal/tkinter/dnd.py",
+          "size": 11968,
+          "sha256": "EC28874FBDF05B2E53D8785BFD86579CE3A90D600A80AF4890E7D39DF4BEE90A"
+        },
+        {
+          "path": "_internal/tkinter/filedialog.py",
+          "size": 15431,
+          "sha256": "296C216A2BB76D3415605C1D523DAEE4937D240E01F2DC201B0F0732017C8C6E"
+        },
+        {
+          "path": "_internal/tkinter/font.py",
+          "size": 7239,
+          "sha256": "B9AA2DF909024B1F27CA46AFFE796C8F1771CF627B10494789D5FB808421D8FE"
+        },
+        {
+          "path": "_internal/tkinter/messagebox.py",
+          "size": 4007,
+          "sha256": "57E037EAA580D6C4453C2E5FA907A23961385A656EAD1901B73281ADF8F5986E"
+        },
+        {
+          "path": "_internal/tkinter/scrolledtext.py",
+          "size": 1864,
+          "sha256": "5C8CC027D899E3F2665B27644A627E7FC72A31B693CA776606E0C0DDAF8B0469"
+        },
+        {
+          "path": "_internal/tkinter/simpledialog.py",
+          "size": 12190,
+          "sha256": "B021A3E14495C85C0B1116DFA6864144C2C3C8E2DDE2279071A794574E7E2DED"
+        },
+        {
+          "path": "_internal/tkinter/tix.py",
+          "size": 78980,
+          "sha256": "9865E7EC287482496FE58089AE8E137C9AC2A11A5A8E41890A3663FAC2399025"
+        },
+        {
+          "path": "_internal/tkinter/ttk.py",
+          "size": 58244,
+          "sha256": "7A77634B8D1E07473BEF7B464C500184F92AE510523EE5CE55FFD130B440FB85"
         }
       ],
       "cleanup_paths": [],
-      "from_version": "1.60",
-      "min_version": "1.60"
+      "from_version": "1.61",
+      "min_version": "1.61"
     },
     {
       "kind": "full",
       "type": "zip",
-      "file": "App_Etiquetado_Box_v1.61_full_update.zip",
-      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.61_full_update.zip",
-      "sha256": "C0F529090986993546E82F4CA19098B559D8B5E51B1967A99866F64292E07F3E",
-      "size": 44958698,
+      "file": "App_Etiquetado_Box_v1.62_full_update.zip",
+      "url": "https://raw.githubusercontent.com/irodriguezfino/app-etiquetado-box-updates/main/App_Etiquetado_Box_v1.62_full_update.zip",
+      "sha256": "03E037DC87025CE2946773ACF7DE9FF18D035E613569CA4AF5A8E8F6D5C3D698",
+      "size": 45258247,
       "update_mode": "overlay",
-      "version": "1.61",
+      "version": "1.62",
       "files": [],
       "cleanup_paths": []
     }

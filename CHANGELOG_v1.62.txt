@@ -1,0 +1,1 @@
+- Corrige el arranque del ejecutable incluyendo el modulo Python tkinter en el paquete. - Mantiene la proteccion de la plantilla de impresion editada durante la actualizacion.
