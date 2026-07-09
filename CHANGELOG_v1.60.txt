@@ -1,0 +1,1 @@
+- Corrige el reparto de piezas en los cortes de peso para que el limite exacto pase al rango superior, como en AX. - Verificado con la partida 280226: 80, 38, 85, 59, 16 y 12 piezas. - Protege la plantilla de impresion editada durante las actualizaciones.
