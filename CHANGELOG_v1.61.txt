@@ -1,0 +1,1 @@
+- Corrige la URL de consulta de actualizaciones para usar la ruta canonica de GitHub. - Evita cache antiguo en raw.githubusercontent.com y mantiene la proteccion de la plantilla de impresion editada.
