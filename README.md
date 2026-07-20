@@ -30,3 +30,7 @@ python preparar_actualizacion_github.py 1.41 "instalador\App_Etiquetado_Box_v1.4
 5. Hacer commit y push a `main`.
 
 No hace falta OneDrive sincronizado ni rutas locales en los equipos cliente.
+
+## Recuperacion si falla el actualizador con `_tcl_data`
+
+Las instalaciones v1.62 pueden mostrar un error de Tcl/Tk antes de descargar la actualizacion. En ese caso, descargar y ejecutar `Reparar_Etiquetado_Box_tkinter.bat` desde este repositorio. El reparador descarga el paquete completo vigente, conserva `config_usuario.json` y la plantilla editada, y vuelve a abrir la aplicacion.

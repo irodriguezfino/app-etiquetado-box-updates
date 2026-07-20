@@ -106,6 +106,10 @@ try {
     if (-not (Test-Path -LiteralPath $tkinterPath)) {
         throw "La reparacion no encontro _internal\tkinter despues de copiar."
     }
+    $updaterPath = Join-Path $InstallDir "Actualizador_Etiquetado_Box.exe"
+    if (-not (Test-Path -LiteralPath $updaterPath)) {
+        throw "La reparacion no encontro el actualizador corregido despues de copiar."
+    }
 
     Write-Host "Reparacion completada correctamente."
     if (-not $NoStart) {

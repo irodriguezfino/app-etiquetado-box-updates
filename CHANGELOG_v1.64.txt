@@ -1,0 +1,1 @@
+- Repara el actualizador: ahora incluye y verifica los datos internos Tcl/Tk necesarios para abrirse. - Mantiene el lote largo y conserva la plantilla y la configuracion del usuario.
