@@ -1,0 +1,1 @@
+- Anade la variable Lote largo, tomada de la sexta columna del TXT, para elegirla desde el editor de plantilla. - Mantiene el lote normal y conserva la plantilla y la configuracion del usuario durante la actualizacion.
