@@ -1,0 +1,1 @@
+Corrección definitiva del conteo por rangos de peso: los límites compartidos se asignan al rango superior, sin redondeo ni doble conteo.
