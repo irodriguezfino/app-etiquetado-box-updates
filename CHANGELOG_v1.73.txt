@@ -1,0 +1,1 @@
+Corrige el bloqueo al cargar una partida desde el selector de Windows. Normaliza las rutas para que el análisis no descarte su resultado. Mantiene el conteo exacto por rangos y la validación decimal.
