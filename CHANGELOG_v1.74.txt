@@ -1,0 +1,1 @@
+Restaura la deteccion de impresoras Windows y la impresion directa de etiquetas. Incluye las librerias pywin32 necesarias en el paquete distribuido. Corrige el empaquetado de Tcl/Tk y Tkinter para que la aplicacion inicie correctamente.
